@@ -1,0 +1,26 @@
+{% extends 'shop/base.html' %}
+
+{% block title %}
+HOME
+{% endblock %}
+
+{% block content %}
+    <!-- Start Top Nav -->
+{% include 'shop/components/navigation.html' %}
+    <!-- Close Top Nav -->
+    <!-- Header -->
+{% include 'shop/components/header.html' %}
+    <!-- Close Header -->
+    <!-- Modal -->
+{% include 'shop/componetns/modal.html' %}
+    <!-- Start Content Page -->
+{% include 'shop/components/contact_us.html' %}
+    <!-- Start Map -->
+{% include 'shop/components/map.html' %}
+    <!-- Ena Map -->
+    <!-- Start Contact -->
+{% include 'shop/components/container_contact.html' %}
+    <!-- End Contact -->
+{% include 'shop/components/footer.html' %}
+
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends 'shop/base.html' %}
+
+{% block title %}
+ABOUT
+{% endblock %}
+
+{% block content %}
+    <!-- Start Top Nav -->
+{% include 'shop/components/navigation.html' %}
+    <!-- Close Top Nav -->
+    <!-- Header -->
+{% include 'shop/components/header.html' %}
+    <!-- Close Header -->
+    <!-- Modal -->
+{% include 'shop/components/modal.html' %}
+
+{% include 'shop/components/banner_about.html' %}
+    <!-- Close Banner -->
+    <!-- Start Section -->
+{% include 'shop/components/container_about.html' %}
+    <!-- End Section -->
+    <!-- Start Brands -->
+{% include 'shop/components/brands.html' %}
+    <!--End Brands-->
+    <!-- Start Footer -->
+{% include 'shop/components/footer.html' %}
+    <!-- End Footer -->
+{% endblock %}
